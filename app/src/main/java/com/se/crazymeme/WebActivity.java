@@ -35,7 +35,7 @@ public class WebActivity extends AppCompatActivity {
     private WebView webView;
     private ProgressBar progressBar;
     private Context context;
-    private String url = "http://192.168.1.101:8000/";
+    private String url = "http://192.168.43.254:8000/";
 
     private ValueCallback<Uri> uploadMessage;
     private ValueCallback<Uri[]> uploadMessageAboveL;

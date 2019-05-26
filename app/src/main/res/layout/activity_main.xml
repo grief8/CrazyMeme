@@ -9,7 +9,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:id="@+id/btn_mbg"
-        android:background="@drawable/api_thumb_450"
+        android:background="@drawable/backg"
         android:foregroundGravity="center"
         android:layout_alignParentBottom="true" />
     <Button

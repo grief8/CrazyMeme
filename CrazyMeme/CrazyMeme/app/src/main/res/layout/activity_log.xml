@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/btn_mbg"
+        android:background="@drawable/mainbackg"
+        android:layout_alignParentBottom="true" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:background="@drawable/chilogo435293754907978522"
+        android:layout_marginTop="200dp"/>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="300dp"
+        android:background="@drawable/englogo344986821627724883"
+        />
+    <EditText
+        android:id="@+id/et_1"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="350dp"
+        android:background="@drawable/bg_username"
+        android:drawableLeft="@drawable/user"
+        android:drawablePadding="5dp"
+        android:hint="用户名"
+        android:inputType="number"
+        android:maxLines="1"
+        android:padding="10dp"
+        android:textColor="#FFAD33"
+        android:textSize="16sp" />
+    <EditText
+        android:id="@+id/et_2"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="420dp"
+        android:background="@drawable/bg_username"
+        android:drawableLeft="@drawable/password"
+        android:drawablePadding="5dp"
+        android:hint="密码"
+        android:inputType="textPassword"
+        android:maxLines="1"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:textColor="#FFAD33"
+        android:textSize="16sp" />
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/et_2"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/bg_btn4"
+        android:text="登录"
+        android:textColor="#ffffff"
+        android:textSize="20sp"/>
+</RelativeLayout>

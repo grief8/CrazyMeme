@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/btn_mbg"
+        android:background="@drawable/api_thumb_450"
+        android:layout_alignParentBottom="true" />
+    <Button
+        android:id="@+id/btn_shequ"
+        android:layout_width="56dp"
+        android:layout_height="56dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignTop="@+id/btn_zhizuo"
+        android:layout_marginStart="20dp"
+        android:background="@drawable/conmu"
+        android:textColor="#ffffff" />
+    <Button
+        android:id="@+id/btn_zhizuo"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="160dp"
+        android:layout_width="56dp"
+        android:layout_height="56dp"
+        android:background="@drawable/work"
+        android:textColor="#ffffff" />
+    <Button
+        android:id="@+id/btn_wode"
+        android:layout_width="56dp"
+        android:layout_height="56dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="300dp"
+        android:background="@drawable/my"
+        android:textColor="#ffffff" />
+
+    <ImageView
+        android:id="@+id/btn_bg"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:background="@drawable/bg_btn2" />
+
+    <ImageView
+        android:id="@+id/img1"
+        android:layout_width="210dp"
+        android:layout_height="210dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:adjustViewBounds="true"
+        app:srcCompat="@drawable/a1" />
+
+    <ImageView
+        android:id="@+id/img2"
+        android:layout_width="210dp"
+        android:layout_height="223dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="100dp"
+        android:layout_marginRight="30dp"
+        android:adjustViewBounds="true"
+        app:srcCompat="@drawable/a2" />
+
+    <ImageView
+        android:id="@+id/img3"
+        android:layout_width="300dp"
+        android:layout_height="200dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/img1"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="50dp"
+        android:adjustViewBounds="true"
+        app:srcCompat="@drawable/a3" />
+
+    <ImageView
+        android:id="@+id/img4"
+        android:layout_width="210dp"
+        android:layout_height="99dp"
+        android:layout_above="@+id/btn_shequ"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="-500dp"
+        android:adjustViewBounds="true"
+        app:srcCompat="@drawable/a4" />
+
+    <ImageView
+        android:id="@+id/img5"
+        android:layout_width="141dp"
+        android:layout_height="150dp"
+        android:layout_above="@+id/btn_shequ"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="-500dp"
+        android:adjustViewBounds="true"
+        app:srcCompat="@drawable/a5" />
+
+
+</RelativeLayout>
